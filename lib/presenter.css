@@ -1,0 +1,3 @@
+html, body, #markdown { padding: 0; border: none; margin: 0; width: 100%; height: 100%; }
+html, body { overflow: hidden; }
+#markdown { resize: none; }
