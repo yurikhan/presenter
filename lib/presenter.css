@@ -17,3 +17,5 @@ html, body { overflow: hidden; }
 .slide h4 { font-weight: bold; font-size: 1em; line-height: 1.5; margin: 0.75em 0; }
 .slide h5 { font-weight: bold; font-size: 0.75em; line-height: 2; margin: 1em 0; }
 .slide h6 { font-weight: bold; font-size: 0.5em; line-height: 3; margin: 1.5em 0; }
+
+.slide ul, .slide ol { padding-left: 1.5em; }
