@@ -4,6 +4,22 @@
 <title>Test</title>
 <link rel="stylesheet" type="text/css" href="../lib/presenter.css" media="screen">
 <script type="text/javascript" id="presenter-loader" src="../lib/presenter.js"></script>
+<style type="text/css">
+.screen p {
+	text-align: center;
+	font-family: Impact;
+	font-size: 2em;
+	color: white;
+	text-shadow:
+		-2px -2px 0 black,
+		2px -2px 0 black,
+		-2px 2px 0 black,
+		2px 2px 0 black;
+}
+.screen p+p {
+	position: absolute; bottom: 0em; width: 100%;
+}
+</style>
 </head>
 <body>
 <textarea readonly id="markdown">
@@ -175,7 +191,11 @@ Lorem *ipsum* dolor **sit amet**, consectetur adipiscing elit.
 
 ----
 
-![](screenshot.png)
+![screen](screenshot.png)
+
+This project
+
+in my Emacs
 
 </textarea>
 </body>
