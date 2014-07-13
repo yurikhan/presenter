@@ -7,4 +7,4 @@ html, body { overflow: hidden; }
 .slide:target { display: block; }
 
 .slide { font-size: 4.17vh; line-height: 1.5; }
-.slide p { margin: 0.75em 0; }
+.slide p, .slide .content>ul, .slide .content>ol { margin: 0.75em 0; }
