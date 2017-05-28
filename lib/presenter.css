@@ -7,7 +7,7 @@ html, body { overflow: hidden; }
 .slide:target { display: block; }
 
 .slide { font-size: 4.17vh; line-height: 1.5; }
-.slide p, .slide .content>ul, .slide .content>ol, .slide blockquote { margin: 0.75em 0; }
+.slide p, .slide .content>ul, .slide .content>ol, .slide blockquote, .slide pre { margin: 0.75em 0; }
 
 .slide blockquote { padding-left: 0.375em; border-left: 0.125em solid; }
 
@@ -21,3 +21,7 @@ html, body { overflow: hidden; }
 .slide ul, .slide ol { padding-left: 1.5em; }
 
 .slide.image { margin: 0; background-size: contain; background-repeat: no-repeat; background-position: center; }
+
+.slide pre { white-space: pre-wrap; word-break: break-all; }
+.slide code { font-size: 80%; line-height: 1.875; }
+.slide .hljs { padding: 0; }

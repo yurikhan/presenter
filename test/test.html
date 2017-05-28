@@ -4,6 +4,7 @@
 <title>Test</title>
 <link rel="stylesheet" type="text/css" href="../lib/presenter.css" media="screen">
 <script type="text/javascript" id="presenter-loader" src="../lib/presenter.js"></script>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/default.min.css" type="text/css" />
 <style type="text/css">
 .screen p {
 	text-align: center;
@@ -196,6 +197,44 @@ Lorem *ipsum* dolor **sit amet**, consectetur adipiscing elit.
 This project
 
 in my Emacs
+
+----
+
+# Code blocks
+
+    <script type="text/javascript"
+            id="presenter-loader"
+            src="../lib/presenter.js"></script>
+    <textarea>
+    &lt;/textarea>
+
+This line should not jump when advancing slides
+
+----
+
+# Code blocks
+
+One line  
+Two lines  
+Three lines  
+Four lines  
+Five lines
+
+This line should not jump when advancing slides
+
+----
+
+# Code blocks
+
+```c
+#include <iostream>
+int main(int, char**)
+{
+	std::cout << "Hello World\n";
+}
+```
+
+This line should not jump when advancing slides
 
 </textarea>
 </body>
