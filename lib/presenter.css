@@ -7,4 +7,6 @@ html, body { overflow: hidden; }
 .slide:target { display: block; }
 
 .slide { font-size: 4.17vh; line-height: 1.5; }
-.slide p, .slide .content>ul, .slide .content>ol { margin: 0.75em 0; }
+.slide p, .slide .content>ul, .slide .content>ol, .slide blockquote { margin: 0.75em 0; }
+
+.slide blockquote { padding-left: 0.375em; border-left: 0.125em solid; }
